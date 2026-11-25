@@ -1,0 +1,50 @@
+# STUDENT LEARNING OUTCOME PREDICTION SYSTEM
+## Evaluation Summary
+
+### Dataset Information
+- Dataset: student_learning.csv
+- Total Records: 280
+- Training Samples: 224
+- Testing Samples: 56
+- Target Variable: passed
+
+### Models Evaluated
+1. Dummy Classifier
+2. Logistic Regression
+3. Random Forest
+
+### Evaluation Metrics
+
+#### Logistic Regression
+- Accuracy: 75.00%
+- F1 Score: 0.7200
+
+Confusion Matrix:
+```text
+[[24  7]
+ [ 7 18]]
+```
+
+#### Random Forest
+- Accuracy: 76.79%
+- F1 Score: 0.7347
+
+Confusion Matrix:
+```text
+[[25  6]
+ [ 7 18]]
+```
+
+### Best Model
+Random Forest was selected as the best model because it achieved the highest accuracy (76.79%) and F1 Score (0.7347) among the two trained models.
+
+### Error Analysis
+The Random Forest model correctly classified 43 out of 56 test samples. It incorrectly classified 13 samples, including 6 false positives and 7 false negatives.
+
+The model may produce incorrect predictions because the dataset is relatively small and synthetic. The model's performance may not generalize to real student populations.
+
+### Conclusion
+The project demonstrates an end-to-end machine learning workflow, including data preprocessing, model training, evaluation, model saving, and Streamlit integration.
+
+### Responsible Use
+Predictions are for educational demonstration only and must not be used to judge, penalize, or make real academic decisions about students.

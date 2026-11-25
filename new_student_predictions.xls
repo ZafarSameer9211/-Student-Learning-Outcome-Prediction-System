@@ -1,0 +1,4 @@
+hours_studied,attendance,practice_tests,sleep_hours,study_method,Predicted Outcome,Pass Probability (%),Fail Probability (%)
+6.5,90,4,7.5,self,PASS,89.0,11.0
+5.7,78,5,6.5,video,PASS,85.0,15.0
+8.0,93,6,8.0,group,PASS,99.0,1.0
